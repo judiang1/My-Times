@@ -20,6 +20,10 @@ align-items: center;
 margin-left: 4px;
 }
 
+span {
+margin: 10px;
+}
+
 
 /* Universal Styles */
 a {
@@ -31,7 +35,6 @@ margin: 0px;
 font-family: Georgia;
 font-size: 17px;
 color: black;  
-
 }
 
 .caption-2, .caption-3, .caption-4 {
