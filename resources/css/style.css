@@ -252,6 +252,7 @@ padding: 11px 20px;
 
 .footer-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
@@ -264,26 +265,22 @@ padding: 11px 20px;
 
 .footer-title {
 color: white;
-padding: 0px 25px 0px 0px;
-margin: 150px 0px
 }
 
 .footer-title, .footer-nav {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
-  
   font-family: Verdana;
   font-size: 12px;
 }
 
 .copyright {
-  display: inline-block;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   background-color: MediumAquamarine;
-  margin: auto;
   font-family: Verdana;
   font-size: 12px;
 }
