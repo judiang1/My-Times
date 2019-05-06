@@ -1,6 +1,7 @@
 .header {
 display: flex;
 font-family: Verdana;
+border: 1px solid black;
 font-size: 14px;
 font-weight: bold;
 width: 100%;
@@ -8,7 +9,6 @@ background-color: white;
 position: fixed;
 z-index: 1;
 margin-top: -80px;
-border-bottom: 1px solid black;
 align-items: center;
 
 }
@@ -19,8 +19,6 @@ color: mediumaquamarine;
 width: 80%;
 align-items: center;
 margin-left: 4px;
-border: 1px solid black;
-
 }
 
 
@@ -49,12 +47,9 @@ padding: 100px 0px;
 .main {
 display: flex;
 flex-direction: row;
-border: 1px solid black;
 width: 1300px;
 justify-content: space-between;
 margin: 80px 20px 40px -45px;
-
-
 }
 
 /* Main News Column */
@@ -62,24 +57,21 @@ margin: 80px 20px 40px -45px;
 display: flex;
 width: 630px;
 height: auto;
-border: 1px solid black;
 flex-direction: column;
 }
 
 /* Lead Story */
 .lead-container {
 display: flex;
-border: 1px solid black;
 flex-direction: column;
 }
 
 .lead-title {
 display: flex;
-border: 1px solid black;
 background-image: url("../images/img-story-main.png");
 background-size: 630px 300px;
 background-repeat: no-repeat;
-padding: 75px 0px;
+padding: 75px 20px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 40px;
@@ -100,15 +92,13 @@ font-weight: normal;
 
 .two-story-container {
 display: flex;
-border: 1px solid black;
 flex-direction: row;
-
 }
 
 .second-container {
 display: flex;
-border: 1px solid black;
-width: 315px;
+flex-direction: column;
+width: auto;
 height: auto;
 margin-right: 15px;
 }
@@ -117,36 +107,32 @@ margin-right: 15px;
 display: flex;
 flex-direction: column;
 font-weight: bold;
+margin-right: 15px;
+padding: 0px 0px 16px 0px;
 }
 
 .second-story {
 display: flex;
 flex-direction: column;
 font-family: Georgia;
-margin-top: 20px;
-border: 1px solid black;
+margin-top: 25px;
   font-size: 17px;
   color: black;
 }
 
 .caption-2 {
 display: flex;
-border: 1px solid black;
 background-image: url("../images/img-story-2.png");
 background-size: auto;
 background-repeat: no-repeat;
-padding: 0px 0px 200px 0px;
 justify-content: center;
-margin-top: 70px;
-
+align-items: center;
 }
 
 .third-container {
 display: flex;
-border: 1px solid black;
 flex-direction: column;
 margin-left: 20px;
-
 }
 
 .third-title {
@@ -164,29 +150,23 @@ font-family: Georgia;
 
 .caption-3 {
 display: flex;
-border: 1px solid black;
 background-image: url("../images/img-story-3.png");
 background-size: auto;
 align-items: center;
 background-size: auto;
 text-align: center;
 margin-top: 5px;
-
 }
 
 /* Middle News Column */
 .column-medium {
 display: flex;
 width: 300px;
-border: 1px solid black;
 flex-direction: column;
-
-
 }
 
 .top-container {
 display: flex;
-border: 1px solid black;
 flex-direction: column;
 }
 
@@ -201,22 +181,18 @@ font-family: Georgia;
 .top-title {
 display: flex;
 flex-direction: column;
-
 }
 
 .bottom-container {
 display: flex;
 flex-direction: column;
-border: 1px solid black;
 margin-top: 20px;
-
 }
 .caption-4 {
 display: flex;
 flex-direction: column;
 background-image: url("../images/img-story-1.png");
 background-size: auto;
-border: 1px solid black;
 padding: 100px 0px;
 text-align: center;
 font-family: Georgia;
@@ -238,25 +214,77 @@ font-family: Georgia;
 .column-small {
 display: flex;
 width: 240px;
-border: 1px solid black;
 flex-direction: column;
-
-
-
 }
 
 .news-bites-container {
 display: flex;
-border: 1px solid black;
 flex-direction: column;
 }
 
 .news-bites-title {
 display: flex;
+font-size: 16px;
+font-weight: bold;
+justify-content: center;
 }
 
 .news-bites-list {
 display: flex;
-border: 1px solid black;
+flex-direction: column;
 }
 
+.bites {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 16px;
+font-weight: bold;
+border-bottom: 1px solid black;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+padding: 11px 20px;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+}
+
+.footer-title {
+color: white;
+padding: 0px 25px 0px 0px;
+margin: 150px 0px
+}
+
+.footer-title, .footer-nav {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.copyright {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+ 
